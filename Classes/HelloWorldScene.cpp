@@ -79,7 +79,7 @@ bool HelloWorld::init()
     // create and initialize a label
 
 
-	_pLabel = Label::createWithTTF("Hello Bird", "fonts/arial.ttf", TITLE_FONT_SIZE);
+	_pLabel = Label::createWithTTF("Hello Bird HAHA", "fonts/arial.ttf", TITLE_FONT_SIZE);
 	// add the label as a child to this layer
 	this->addChild(_pLabel, 1);
 

@@ -1,8 +1,6 @@
 #include "HelloGame.h"
 #include "LZBlockSprite.h"
 
-
-
 HelloGame::HelloGame()
 {
 }
@@ -31,7 +29,7 @@ bool HelloGame::init()
 	_eventDispatcher->addEventListenerWithSceneGraphPriority(_mouseListener, this);
 
 	initWithPhysics();
-	_physicsWorld->setGravity(Point::ZERO); // 关闭重力
+	_physicsWorld->setGravity(Point::ZERO); // 关闭全局重力
 //	_physicsWorld->setDebugDrawMask(true ? PhysicsWorld::DEBUGDRAW_ALL : PhysicsWorld::DEBUGDRAW_NONE);
 //	_physicsWorld->setFixedUpdateRate(180);
 	// 设置背景层颜色

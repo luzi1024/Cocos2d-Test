@@ -240,3 +240,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/proj.win32/Debug.win32
+/Debug.win32/cpp-empty-test
